@@ -1,0 +1,202 @@
+
+
+body{
+  text-align: center;
+  margin: 0;
+  font-family: 'adobe-garamond-pro', serif;
+  font-size: 25px;
+  color: #40514E
+
+}
+
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 5.625rem ; /* We want 90px but on percentage so 90px/16px = 5.625(562.5%)
+                        // But also em is equal to 16px = 100% = 1em
+                        // BE CAREFUL USING PERCENTAGE OR EMs that's because the font size
+                        // gets inherited and added on top of whatever it got from its parent.
+                        // To avoid this, use rem(REM unit)
+                        // rem is equal to 16px = 100% = 1em = 1rem */
+  color:#66BFBF;
+
+  /*line-height: 2;*/
+}
+
+h2{
+  font-family: 'brandon-grotesque' , sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+  color:#66BFBF;
+  font-weight: normal;
+  font-size: 53px;
+
+}
+
+h3, a{
+  color:#11999E;
+  font-family: 'brandon-grotesque' , sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+
+}
+a:hover{
+  color: #EAF6f6;
+}
+
+p{
+  line-height: 2;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+  color: #EAf6f6;
+
+  margin: 100px auto 100px auto;
+
+}
+
+p{
+  line-height:
+}
+#profile-pic{
+  border-radius:  100%;
+  width: auto;
+  height: 250px;
+
+}
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 400px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.intro{
+  width: 60%;
+  margin: auto;
+}
+.it-span{
+  font-weight: bold;
+  text-decoration: underline;
+  color: #e74c3c;
+  font-size: 2.5rem;
+}
+.profile{
+  width: 70%;
+  margin: auto;
+}
+.top-container{
+  background-color: #e4f6f6;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 100px;
+
+
+}
+
+.skill-row{
+  width: 50%;
+  margin : 100px auto 200px auto;
+  text-align: left;
+  border: solid 1px;
+
+}
+
+
+.web-dev-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+margin-top: 100px;
+
+}
+.iOS-mob-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.linux-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+/*
+.web-dev-desc{
+  clear: left;
+}
+*/
+
+
+.middle-container{
+margin-bottom: 100px;
+
+
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+font-family: 'brandon-grotesque' , sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container{
+  padding-top: 100px;
+  background-color: #66BFBF;
+  margin-bottom:0;
+  padding:
+
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.footer-link{
+  color: #11999E;
+  margin: 50px;
+  text-decoration: none;
+
+}
+
+.footer-copyright{
+  color: #EAF6F6;
+  padding-bottom: 100px;
+  font-size: .75rem;
+
+}
